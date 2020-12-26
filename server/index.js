@@ -9,11 +9,17 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
 
+const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
+
 io.on('connection', (socket) => {
   console.log('New connection');
 
   socket.on('join', ({ name, room }, callback) => {
-    console.log(name, room);
+    const { error, user } = addUser({ id: socket.id, name, room });
+
+    if (error) return callback(error);
+
+    socket.join(user.room);
   });
   socket.on('disconnect', () => {
     console.log('User left');
