@@ -12,11 +12,7 @@ export default function SignIn() {
     <div className='joinOuterContainer'>
       <div className='joinInnerContainer'>
         <h1 className='heading'>
-          <Icon.Group size='large'>
-            <Icon name='rocketchat' />
-          </Icon.Group>
-          Instant Chat
-          <hr></hr>
+          🖄 Instant Chat
           <Typewriter
             options={{
               strings: ['Chat instantly by entering a room!'],

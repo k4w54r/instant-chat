@@ -8,12 +8,7 @@ import './TextContainer.css';
 const TextContainer = ({ users }) => (
   <div className='textContainer'>
     <div>
-      <h1 className='heading'>
-        <Icon.Group size='large'>
-          <Icon name='rocketchat' />
-        </Icon.Group>
-        Instant Chat
-      </h1>
+      <h1 className='heading'>🖄 Instant Chat</h1>
       {users ? (
         <div>
           <h1>Online:</h1>
