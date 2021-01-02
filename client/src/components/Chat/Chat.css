@@ -3,14 +3,24 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #1A1A1D;
+  background: #1e130c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #9a8478,
+    #1e130c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #9a8478,
+    #1e130c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
   height: 60%;
   width: 35%;
