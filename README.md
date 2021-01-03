@@ -1,4 +1,4 @@
-# Instant-Chat
+# Instant Chat
 A real time chat application
 
 ## Features
