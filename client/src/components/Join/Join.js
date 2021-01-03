@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
-import { Icon } from 'semantic-ui-react';
 import './Join.css';
 
 export default function SignIn() {
@@ -12,7 +11,10 @@ export default function SignIn() {
     <div className='joinOuterContainer'>
       <div className='joinInnerContainer'>
         <h1 className='heading'>
-          🖄 Instant Chat
+          Instant Chat
+          <span role='img' aria-label='emoji'>
+            🖄
+          </span>
           <Typewriter
             options={{
               strings: ['Chat instantly by entering a room!'],

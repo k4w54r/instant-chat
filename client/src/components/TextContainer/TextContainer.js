@@ -1,14 +1,18 @@
 import React from 'react';
 
 import onlineIcon from '../../icons/onlineIcon.png';
-import { Icon } from 'semantic-ui-react';
 
 import './TextContainer.css';
 
 const TextContainer = ({ users }) => (
   <div className='textContainer'>
     <div>
-      <h1 className='heading'>🖄 Instant Chat</h1>
+      <h1 className='heading'>
+        Instant Chat
+        <span role='img' aria-label='emoji'>
+          🖄
+        </span>
+      </h1>
       {users ? (
         <div>
           <h1>Online:</h1>
