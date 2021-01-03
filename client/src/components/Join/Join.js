@@ -12,9 +12,6 @@ export default function SignIn() {
       <div className='joinInnerContainer'>
         <h1 className='heading'>
           Instant Chat
-          <span role='img' aria-label='emoji'>
-            🖄
-          </span>
           <Typewriter
             options={{
               strings: ['Chat instantly by entering a room!'],

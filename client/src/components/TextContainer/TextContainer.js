@@ -8,10 +8,10 @@ const TextContainer = ({ users }) => (
   <div className='textContainer'>
     <div>
       <h1 className='heading'>
-        Instant Chat
         <span role='img' aria-label='emoji'>
           🖄
         </span>
+        Instant Chat
       </h1>
       {users ? (
         <div>
