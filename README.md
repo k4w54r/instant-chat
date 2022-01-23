@@ -11,7 +11,7 @@ A real time chat application
 * React
 * Node
 
-## Live Demo
+## Deployed Site
 
-Live demo is [here](https://instant-chat.netlify.app/).
+Deployed [here](https://instant-chat.netlify.app/).
 
